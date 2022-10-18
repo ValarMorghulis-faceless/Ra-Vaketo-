@@ -13,6 +13,7 @@
 		0FF1519B28F75EA4005566C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FF1519928F75EA4005566C6 /* Main.storyboard */; };
 		0FF1519D28F75EA5005566C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FF1519C28F75EA5005566C6 /* Assets.xcassets */; };
 		0FF151A028F75EA5005566C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FF1519E28F75EA5005566C6 /* LaunchScreen.storyboard */; };
+		0FF1522628FEE3A8005566C6 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0FF1522428FEE3A7005566C6 /* DataModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0FF1519C28F75EA5005566C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FF1519F28F75EA5005566C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0FF151A128F75EA5005566C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FF1522528FEE3A7005566C6 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,48 @@
 		0FF1519228F75EA4005566C6 /* Ra Vaketo? */ = {
 			isa = PBXGroup;
 			children = (
+				0FF1520028FD9E30005566C6 /* Supporting Files */,
+				0FF151FF28FD9E14005566C6 /* Views */,
+				0FF151FE28FD9DF5005566C6 /* Controllers */,
+				0FF151FD28FD9DE4005566C6 /* Data Model */,
 				0FF1519328F75EA4005566C6 /* AppDelegate.swift */,
 				0FF1519528F75EA4005566C6 /* SceneDelegate.swift */,
-				0FF1519728F75EA4005566C6 /* TodoListViewController.swift */,
-				0FF1519928F75EA4005566C6 /* Main.storyboard */,
-				0FF1519C28F75EA5005566C6 /* Assets.xcassets */,
-				0FF1519E28F75EA5005566C6 /* LaunchScreen.storyboard */,
 				0FF151A128F75EA5005566C6 /* Info.plist */,
 			);
 			path = "Ra Vaketo?";
+			sourceTree = "<group>";
+		};
+		0FF151FD28FD9DE4005566C6 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				0FF1522428FEE3A7005566C6 /* DataModel.xcdatamodeld */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+		0FF151FE28FD9DF5005566C6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0FF1519728F75EA4005566C6 /* TodoListViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0FF151FF28FD9E14005566C6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0FF1519928F75EA4005566C6 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0FF1520028FD9E30005566C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FF1519C28F75EA5005566C6 /* Assets.xcassets */,
+				0FF1519E28F75EA5005566C6 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FF1522628FEE3A8005566C6 /* DataModel.xcdatamodeld in Sources */,
 				0FF1519828F75EA4005566C6 /* TodoListViewController.swift in Sources */,
 				0FF1519428F75EA4005566C6 /* AppDelegate.swift in Sources */,
 				0FF1519628F75EA4005566C6 /* SceneDelegate.swift in Sources */,
@@ -356,6 +392,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0FF1522428FEE3A7005566C6 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0FF1522528FEE3A7005566C6 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 0FF1522528FEE3A7005566C6 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0FF1518828F75EA4005566C6 /* Project object */;
 }
