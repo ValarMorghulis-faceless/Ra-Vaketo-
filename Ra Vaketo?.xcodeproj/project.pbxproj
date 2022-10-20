@@ -7,16 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FC7B5C828FF5A6D00D3F856 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC7B5C728FF5A6D00D3F856 /* CategoryViewController.swift */; };
+		0FC7B5CC2900B33E00D3F856 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC7B5CB2900B33E00D3F856 /* Item.swift */; };
+		0FC7B5CE2900B34D00D3F856 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC7B5CD2900B34D00D3F856 /* Category.swift */; };
+		0FC7B5D22901F89E00D3F856 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0FC7B5D12901F89E00D3F856 /* .gitignore */; };
 		0FF1519428F75EA4005566C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF1519328F75EA4005566C6 /* AppDelegate.swift */; };
 		0FF1519628F75EA4005566C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF1519528F75EA4005566C6 /* SceneDelegate.swift */; };
 		0FF1519828F75EA4005566C6 /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF1519728F75EA4005566C6 /* TodoListViewController.swift */; };
 		0FF1519B28F75EA4005566C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FF1519928F75EA4005566C6 /* Main.storyboard */; };
 		0FF1519D28F75EA5005566C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FF1519C28F75EA5005566C6 /* Assets.xcassets */; };
 		0FF151A028F75EA5005566C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FF1519E28F75EA5005566C6 /* LaunchScreen.storyboard */; };
-		0FF1522628FEE3A8005566C6 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0FF1522428FEE3A7005566C6 /* DataModel.xcdatamodeld */; };
+		E9F67EA71CFC0B8A2B4985EB /* Pods_Ra_Vaketo_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D5BC3BDF6EEEB1C049115ED /* Pods_Ra_Vaketo_.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0FC7B5C728FF5A6D00D3F856 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		0FC7B5CB2900B33E00D3F856 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		0FC7B5CD2900B34D00D3F856 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		0FC7B5D12901F89E00D3F856 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		0FF1519028F75EA4005566C6 /* Ra Vaketo?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ra Vaketo?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FF1519328F75EA4005566C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FF1519528F75EA4005566C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,7 +33,9 @@
 		0FF1519C28F75EA5005566C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FF1519F28F75EA5005566C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0FF151A128F75EA5005566C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0FF1522528FEE3A7005566C6 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		1733B8FE73DFE283FABA0BF3 /* Pods-Ra Vaketo?.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ra Vaketo?.release.xcconfig"; path = "Target Support Files/Pods-Ra Vaketo?/Pods-Ra Vaketo?.release.xcconfig"; sourceTree = "<group>"; };
+		5D5BC3BDF6EEEB1C049115ED /* Pods_Ra_Vaketo_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ra_Vaketo_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB755B9E0CBE2D799A2BD8E /* Pods-Ra Vaketo?.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ra Vaketo?.debug.xcconfig"; path = "Target Support Files/Pods-Ra Vaketo?/Pods-Ra Vaketo?.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9F67EA71CFC0B8A2B4985EB /* Pods_Ra_Vaketo_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,8 +53,11 @@
 		0FF1518728F75EA4005566C6 = {
 			isa = PBXGroup;
 			children = (
+				0FC7B5D12901F89E00D3F856 /* .gitignore */,
 				0FF1519228F75EA4005566C6 /* Ra Vaketo? */,
 				0FF1519128F75EA4005566C6 /* Products */,
+				359421E0301F87A66583686C /* Pods */,
+				CEF23E75501C6EE5EA5894F9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,7 +86,8 @@
 		0FF151FD28FD9DE4005566C6 /* Data Model */ = {
 			isa = PBXGroup;
 			children = (
-				0FF1522428FEE3A7005566C6 /* DataModel.xcdatamodeld */,
+				0FC7B5CD2900B34D00D3F856 /* Category.swift */,
+				0FC7B5CB2900B33E00D3F856 /* Item.swift */,
 			);
 			path = "Data Model";
 			sourceTree = "<group>";
@@ -80,6 +95,7 @@
 		0FF151FE28FD9DF5005566C6 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				0FC7B5C728FF5A6D00D3F856 /* CategoryViewController.swift */,
 				0FF1519728F75EA4005566C6 /* TodoListViewController.swift */,
 			);
 			path = Controllers;
@@ -102,6 +118,23 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		359421E0301F87A66583686C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DFB755B9E0CBE2D799A2BD8E /* Pods-Ra Vaketo?.debug.xcconfig */,
+				1733B8FE73DFE283FABA0BF3 /* Pods-Ra Vaketo?.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CEF23E75501C6EE5EA5894F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D5BC3BDF6EEEB1C049115ED /* Pods_Ra_Vaketo_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -109,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0FF151A428F75EA5005566C6 /* Build configuration list for PBXNativeTarget "Ra Vaketo?" */;
 			buildPhases = (
+				D37F9DD159CE4EF64EA97165 /* [CP] Check Pods Manifest.lock */,
 				0FF1518C28F75EA4005566C6 /* Sources */,
 				0FF1518D28F75EA4005566C6 /* Frameworks */,
 				0FF1518E28F75EA4005566C6 /* Resources */,
+				93C160D0A662F838EDAFB607 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FC7B5D22901F89E00D3F856 /* .gitignore in Resources */,
 				0FF151A028F75EA5005566C6 /* LaunchScreen.storyboard in Resources */,
 				0FF1519D28F75EA5005566C6 /* Assets.xcassets in Resources */,
 				0FF1519B28F75EA4005566C6 /* Main.storyboard in Resources */,
@@ -168,15 +204,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		93C160D0A662F838EDAFB607 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ra Vaketo?/Pods-Ra Vaketo?-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ra Vaketo?/Pods-Ra Vaketo?-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ra Vaketo?/Pods-Ra Vaketo?-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D37F9DD159CE4EF64EA97165 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ra Vaketo?-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0FF1518C28F75EA4005566C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FF1522628FEE3A8005566C6 /* DataModel.xcdatamodeld in Sources */,
+				0FC7B5C828FF5A6D00D3F856 /* CategoryViewController.swift in Sources */,
 				0FF1519828F75EA4005566C6 /* TodoListViewController.swift in Sources */,
 				0FF1519428F75EA4005566C6 /* AppDelegate.swift in Sources */,
+				0FC7B5CC2900B33E00D3F856 /* Item.swift in Sources */,
 				0FF1519628F75EA4005566C6 /* SceneDelegate.swift in Sources */,
+				0FC7B5CE2900B34D00D3F856 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +398,7 @@
 		};
 		0FF151A528F75EA5005566C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFB755B9E0CBE2D799A2BD8E /* Pods-Ra Vaketo?.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -345,6 +426,7 @@
 		};
 		0FF151A628F75EA5005566C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1733B8FE73DFE283FABA0BF3 /* Pods-Ra Vaketo?.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -392,19 +474,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		0FF1522428FEE3A7005566C6 /* DataModel.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				0FF1522528FEE3A7005566C6 /* DataModel.xcdatamodel */,
-			);
-			currentVersion = 0FF1522528FEE3A7005566C6 /* DataModel.xcdatamodel */;
-			path = DataModel.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 0FF1518828F75EA4005566C6 /* Project object */;
 }
